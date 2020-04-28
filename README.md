@@ -9,3 +9,7 @@ you with the latest information according to your region.
 - News API to get News data from.
 - Ionic Framework for mobile development.
 - Apache Cordova for building.
+
+### Screenshot
+
+<img style="vertical-align:middle" src="https://github.com/rahulhegde99/Conneqt-News/blob/master/Screenshot_20200428-102624.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300"/>
