@@ -1,0 +1,38 @@
+<style>ion-title {
+  font-family:'Times New Roman', Times, serif;
+}
+</style>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CONNEQT NEWS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src='{{article.urlToImage}}' alt=''/>
+    <ion-card-content>
+      <div>
+        <ion-card-title>{{article.title}}</ion-card-title>
+      </div>
+      <div> 
+        <p>{{article.description}}</p>
+      </div>
+      <br>
+      <div>  
+        <p><strong>Report</strong></p>
+        <p>{{article.content}}<a href="{{article.url}}"><ion-icon name="link"></ion-icon></a></p>
+      </div>         
+    </ion-card-content>
+  </ion-card>
+
+  <ion-footer>
+    <ion-toolbar>
+      <p style="text-align: center;"><strong>Conneqt News</strong></p>
+      <p style="text-align: center;">Developed by &copy;Rahul Hegde</p>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>
+
+<ion-back-button defaultHref="/tabs/(news:news)"></ion-back-button>
